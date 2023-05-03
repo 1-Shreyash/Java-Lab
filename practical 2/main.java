@@ -3,7 +3,7 @@ class main {
         Time t1 = new Time(17, 5, 0);
         Time t2 = new Time(10, 10, 0);
         Time t3 = new Time(17, 5, 0);
-        Time t = new Time();
+        // Time t = new Time();
         // t = t1.addT(t1, t2);
         // t.display();
         // t = t1.sub(t1, t2);
