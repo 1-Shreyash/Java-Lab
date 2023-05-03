@@ -1,4 +1,4 @@
-class A {
+class main {
     public static void main(String[] args) {
         Time t1 = new Time(17, 5, 0);
         Time t2 = new Time(10, 10, 0);
