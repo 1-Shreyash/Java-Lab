@@ -1,8 +1,6 @@
-package pracitcal1;
-
-public class main1 {
+class main1{
     public static void main(String[] args) {
-        stack2 s1 = new stack2(10);
+        stack2 s1 = new stack2(9);
         s1.push(1);
         s1.push(2);
         s1.push(3);

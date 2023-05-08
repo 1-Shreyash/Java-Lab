@@ -1,13 +1,19 @@
-public class stack2 {
+package pracs;
+
+public class Stack {
     int n;
     int i=-1;//top
-    stack2(int length){
-        n = length;
-    }
-    int a[]= new int[n];
+    // stack(int length){
+    //     n = length;
+    // }
+    int[] a = new int[n];
     void push(int b){
-        i++;
-        a[i]=b;
+        if(i<=n){
+            i++;
+            a[i]=b;
+        }
+        else
+            System.out.println("index out of bound");
     }
     void pop(){
         if(i>=0)
