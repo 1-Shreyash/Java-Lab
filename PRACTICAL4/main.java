@@ -16,9 +16,15 @@ public class main {
         f1.updateInterest();
         f1.display();
 
-        FixedDepositAccount f2 = new FixedDepositAccount("Sah", 786, 2, 4);
+        FixedDepositAccount f2 = new FixedDepositAccount("Rohit", 786, 2, 4);
         f2.deposit(1000);
         f2.updateInterest();
+        f2.display();
+
+        s1.closeAccount();
+        s1.display();
+
+        f2.closeAccount(2);
         f2.display();
     }
 }

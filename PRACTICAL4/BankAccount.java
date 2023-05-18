@@ -26,12 +26,10 @@ class BankAccount{
         balance += am;
     }
     double closeAccount(){
-        double b1 =balance;
+        double b1 = balance;
         balance = 0;
+        System.out.println("Amount returned :"+b1);
         return b1;
-    }
-    void updateInterest(){
-        
     }
     void display(){
         System.out.println("Account Number:"+AccNum);

@@ -18,10 +18,10 @@ public class FixedDepositAccount extends BankAccount{
     void closeAccount(double years){
         if(years< lockedInPeriod){
             balance -= balance * 0.05;
-            System.out.println("Cash given : "+balance);
+            System.out.println("5% amount charged\n"+"Amount returned : "+balance);
         }
         else{
-            System.out.println("Cash given : "+balance);
+            System.out.println("Amount returned : "+balance);
         }
         balance=0;
             
